@@ -3,3 +3,6 @@ use: /api/booking/tables
 
 to get the users and to register a user
 use: /auth/users
+
+to obtain a token
+use: /auth/api-token-auth
