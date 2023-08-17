@@ -1,0 +1,5 @@
+to get the bookings and book a table
+use: /api/booking/tables
+
+to get the users and to register a user
+use: /auth/users

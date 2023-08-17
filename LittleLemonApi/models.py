@@ -20,3 +20,6 @@ class Booking(models.Model):
     time = models.TimeField()
     number_of_guests = models.IntegerField()
     message = models.TextField()
+
+    def __str__(self):
+        return f'{self.name} : {self.date} : {self.time}'
